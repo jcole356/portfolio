@@ -8,6 +8,28 @@ export default function Home() {
         <div>
           I am a software engineer
         </div>
+        <div>
+          <h2>Technologies</h2>
+          <h3>Here is some of the tech that I have experience with:</h3>
+          <div className={styles.tech}>
+            <span>JavaScript</span>
+            <span>React</span>
+            <span>Node.js</span>
+            <span>Next.js</span>
+            <span>Ruby on Rails</span>
+            <span>PostgreSQL</span>
+            <span>GraphQL</span>
+            <span>Vue.js</span>
+            <span>Backbone.js</span>
+            <span>jQuery</span>
+          </div>
+          <h3>Here is some more tech that you likely don&apos;t care about anymore:</h3>
+          <div className={styles.tech}>
+            <span>Angular.js</span>
+            <span>Backbone.js</span>
+            <span>jQuery</span>
+          </div>
+        </div>
       </main>
       <footer className={styles.footer}>
           <a
