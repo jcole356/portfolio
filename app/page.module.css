@@ -34,6 +34,18 @@
   grid-row-start: 2;
 }
 
+.sectionHeader {
+  margin-bottom: 24px;
+}
+
+.subSection {
+  margin-bottom: 16px;
+}
+
+.header {
+  margin-bottom: 18px;
+}
+
 .tech {
   display: flex;
   gap: 8px;
